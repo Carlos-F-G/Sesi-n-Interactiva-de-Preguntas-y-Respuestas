@@ -1,4 +1,4 @@
-# Hospital Nueva Vida - Proyecto ReactJS
+
 
 ## ¿Qué es TypeScript y para qué se utiliza?
 
