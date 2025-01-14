@@ -88,7 +88,9 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
   <br>
   <br>
   
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ <br>
+# 2 -Ejercicio Práctico: Definiendo Tipos e Inferencia
 
 
 
