@@ -27,6 +27,9 @@ Se utiliza principalmente para:
 | 5- **Compatibilidad**           | Funciona en navegadores sin compilación previa | Necesita compilarse a JavaScript para ejecutarse |
 | 6- **Compatibilidad con JavaScript** | Nativo | Totalmente compatible (todo código JS válido es TS válido) |
 
+<br>
+<br>
+<br>
 
 
 
