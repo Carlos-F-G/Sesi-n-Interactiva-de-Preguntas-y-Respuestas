@@ -5,12 +5,19 @@
 
 TypeScript es un superset tipado de JavaScript desarrollado por Microsoft. Extiende JavaScript al agregar tipado estático opcional y herramientas avanzadas para el desarrollo. Se compila a JavaScript puro, lo que lo hace compatible con cualquier navegador o entorno donde se ejecute JavaScript.
 
+<br>
+<br>
+
 Se utiliza principalmente para:
 
 - Mejorar la detección temprana de errores en el código.
 - Facilitar el mantenimiento y escalabilidad en proyectos grandes.
 - Proporcionar mejor autocompletado e integración con editores de código como VSCode.
 - Implementar conceptos avanzados como interfaces, genéricos y clases en un entorno seguro.
+
+  <br>
+  <br>
+  <br>
 
 
 ## 2 ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
