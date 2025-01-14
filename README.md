@@ -64,6 +64,11 @@ Se utiliza principalmente para:
 
 - Los tipos actúan como documentación para otros desarrolladores.
 
+  <br>
+  <br>
+  <br>
+  
+
 ## 4 ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
 
 El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en variables, funciones y objetos. Este sistema ayuda a prevenir errores antes de que el código se ejecute.
@@ -78,6 +83,11 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
 - Los editores pueden sugerir funciones y propiedades basadas en los tipos definidos.
 - ### 4 -Ayuda a la refactorización
 - Si un tipo cambia, TypeScript alerta de los lugares donde hay conflictos.
+
+  <br>
+  <br>
+  <br>
+  
 
 
 
