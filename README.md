@@ -17,12 +17,12 @@ Se utiliza principalmente para:
 
 | Característica               | JavaScript | TypeScript |
 |------------------------------|-----------|-----------|
-- 1| **Tipado**                   | Dinámico (las variables pueden cambiar de tipo) | Estático (las variables tienen un tipo fijo si se declara) |
-- 2| **Errores en código**        | Se detectan solo en tiempo de ejecución | Se detectan en tiempo de desarrollo |
-- 3| **Soporte de Interfaces**    | No tiene interfaces | Soporta interfaces para definir estructuras de datos |
-- 4| **Modularidad**              | Usa módulos de ES6 | Usa módulos de ES6 con un tipado más seguro |
-- 5| **Compatibilidad**           | Funciona en navegadores sin compilación previa | Necesita compilarse a JavaScript para ejecutarse |
-- 6| **Compatibilidad con JavaScript** | Nativo | Totalmente compatible (todo código JS válido es TS válido) |
+| **Tipado**                   | Dinámico (las variables pueden cambiar de tipo) | Estático (las variables tienen un tipo fijo si se declara) |
+| **Errores en código**        | Se detectan solo en tiempo de ejecución | Se detectan en tiempo de desarrollo |
+| **Soporte de Interfaces**    | No tiene interfaces | Soporta interfaces para definir estructuras de datos |
+| **Modularidad**              | Usa módulos de ES6 | Usa módulos de ES6 con un tipado más seguro |
+| **Compatibilidad**           | Funciona en navegadores sin compilación previa | Necesita compilarse a JavaScript para ejecutarse |
+| **Compatibilidad con JavaScript** | Nativo | Totalmente compatible (todo código JS válido es TS válido) |
 
 
 ## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
