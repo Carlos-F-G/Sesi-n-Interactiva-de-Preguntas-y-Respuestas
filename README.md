@@ -22,7 +22,7 @@ Se utiliza principalmente para:
 
 ## 2 ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
-
+<br>
 
 
 | Característica               | JavaScript | TypeScript |
