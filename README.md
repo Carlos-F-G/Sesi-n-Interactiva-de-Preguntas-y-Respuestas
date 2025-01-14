@@ -3,15 +3,27 @@
 ## ¿Qué es TypeScript y para qué se utiliza?
 
 
-TypeScript es un lenguaje de programación desarrollado por Microsoft que extiende JavaScript agregando tipado estático opcional.
-Se utiliza para desarrollar aplicaciones web a gran escala, mejorando la calidad del código y reduciendo errores en tiempo de desarrollo.
+TypeScript es un superset tipado de JavaScript desarrollado por Microsoft. Extiende JavaScript al agregar tipado estático opcional y herramientas avanzadas para el desarrollo. Se compila a JavaScript puro, lo que lo hace compatible con cualquier navegador o entorno donde se ejecute JavaScript.
+
+Se utiliza principalmente para:
+
+- Mejorar la detección temprana de errores en el código.
+- Facilitar el mantenimiento y escalabilidad en proyectos grandes.
+- Proporcionar mejor autocompletado e integración con editores de código como VSCode.
+- Implementar conceptos avanzados como interfaces, genéricos y clases en un entorno seguro.
+
 
 ## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
-- Tipado estático: TypeScript permite definir tipos para variables, funciones y objetos, mientras que JavaScript es dinámico.
-- Interfaces y Clases: TypeScript soporta interfaces y mejoras en la programación orientada a objetos.
-- Compatibilidad con ES6/ESNext: TypeScript permite usar características modernas de JavaScript, incluso antes de que sean compatibles en los navegadores.
-- Mejoras en depuración: TypeScript detecta errores en tiempo de compilación en lugar de en tiempo de ejecución.
-- Compatibilidad con JavaScript: Todo código JavaScript válido es también válido en TypeScript
+
+| Característica               | JavaScript | TypeScript |
+|------------------------------|-----------|-----------|
+- 1| **Tipado**                   | Dinámico (las variables pueden cambiar de tipo) | Estático (las variables tienen un tipo fijo si se declara) |
+- 2| **Errores en código**        | Se detectan solo en tiempo de ejecución | Se detectan en tiempo de desarrollo |
+- 3| **Soporte de Interfaces**    | No tiene interfaces | Soporta interfaces para definir estructuras de datos |
+- 4| **Modularidad**              | Usa módulos de ES6 | Usa módulos de ES6 con un tipado más seguro |
+- 5| **Compatibilidad**           | Funciona en navegadores sin compilación previa | Necesita compilarse a JavaScript para ejecutarse |
+- 6| **Compatibilidad con JavaScript** | Nativo | Totalmente compatible (todo código JS válido es TS válido) |
+
 
 ## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
