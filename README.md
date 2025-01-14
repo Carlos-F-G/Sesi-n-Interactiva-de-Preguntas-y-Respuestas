@@ -7,11 +7,11 @@ TypeScript es un lenguaje de programación desarrollado por Microsoft que extien
 Se utiliza para desarrollar aplicaciones web a gran escala, mejorando la calidad del código y reduciendo errores en tiempo de desarrollo.
 
 ## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
-. 1- Tipado estático: TypeScript permite definir tipos para variables, funciones y objetos, mientras que JavaScript es dinámico.
-. 2- Interfaces y Clases: TypeScript soporta interfaces y mejoras en la programación orientada a objetos.
-. 3- Compatibilidad con ES6/ESNext: TypeScript permite usar características modernas de JavaScript, incluso antes de que sean compatibles en los navegadores.
-. 4- Mejoras en depuración: TypeScript detecta errores en tiempo de compilación en lugar de en tiempo de ejecución.
-. 5- Compatibilidad con JavaScript: Todo código JavaScript válido es también válido en TypeScript
+- Tipado estático: TypeScript permite definir tipos para variables, funciones y objetos, mientras que JavaScript es dinámico.
+- Interfaces y Clases: TypeScript soporta interfaces y mejoras en la programación orientada a objetos.
+- Compatibilidad con ES6/ESNext: TypeScript permite usar características modernas de JavaScript, incluso antes de que sean compatibles en los navegadores.
+- Mejoras en depuración: TypeScript detecta errores en tiempo de compilación en lugar de en tiempo de ejecución.
+- Compatibilidad con JavaScript: Todo código JavaScript válido es también válido en TypeScript
 
 ## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
