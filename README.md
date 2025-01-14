@@ -17,24 +17,34 @@ Se utiliza principalmente para:
 
 | Característica               | JavaScript | TypeScript |
 |------------------------------|-----------|-----------|
-| 1 **Tipado**                   | Dinámico (las variables pueden cambiar de tipo) | Estático (las variables tienen un tipo fijo si se declara) |
-| 2 **Errores en código**        | Se detectan solo en tiempo de ejecución | Se detectan en tiempo de desarrollo |
-| 3 **Soporte de Interfaces**    | No tiene interfaces | Soporta interfaces para definir estructuras de datos |
-| 4 **Modularidad**              | Usa módulos de ES6 | Usa módulos de ES6 con un tipado más seguro |
-| 5 **Compatibilidad**           | Funciona en navegadores sin compilación previa | Necesita compilarse a JavaScript para ejecutarse |
-| 6 **Compatibilidad con JavaScript** | Nativo | Totalmente compatible (todo código JS válido es TS válido) |
+| 1- **Tipado**                   | Dinámico (las variables pueden cambiar de tipo) | Estático (las variables tienen un tipo fijo si se declara) |
+| 2- **Errores en código**        | Se detectan solo en tiempo de ejecución | Se detectan en tiempo de desarrollo |
+| 3- **Soporte de Interfaces**    | No tiene interfaces | Soporta interfaces para definir estructuras de datos |
+| 4- **Modularidad**              | Usa módulos de ES6 | Usa módulos de ES6 con un tipado más seguro |
+| 5- **Compatibilidad**           | Funciona en navegadores sin compilación previa | Necesita compilarse a JavaScript para ejecutarse |
+| 6- **Compatibilidad con JavaScript** | Nativo | Totalmente compatible (todo código JS válido es TS válido) |
 
 
-## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
+## ¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
 
-¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
+### TypeScript mejora la calidad del código en React proporcionando:
 
-TypeScript mejora la calidad del código en React proporcionando:
+- ### 1 Mejorar la seguridad del código
 
-- Autocompletado y ayuda en editores como VSCode.
-- Reducción de errores por tipado incorrecto en componentes y props.
-- Mejor mantenimiento del código en proyectos grandes.
-- Mayor claridad y documentación automática del código.
+ - Detecta errores antes de que se ejecuten en el navegador.
+ - Evita pasar props incorrectas en los componentes.
+  
+- ### 2 Autocompletado y sugerencias en el editor
+
+- Gracias al tipado, los editores como VSCode pueden sugerir métodos y propiedades automáticamente.
+  
+Mejor mantenimiento y escalabilidad
+
+Hace que los proyectos sean más fáciles de entender en equipos grandes.
+Facilita la refactorización del código sin miedo a romper funcionalidades.
+Facilitar la documentación
+
+Los tipos actúan como documentación para otros desarrolladores.
 
 ## ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
 
