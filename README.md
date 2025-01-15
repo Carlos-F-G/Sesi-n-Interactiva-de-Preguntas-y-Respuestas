@@ -25,7 +25,7 @@ Se utiliza principalmente para:
   <br>
 
 
-## 2 ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
+## ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
 <br>
 
@@ -45,29 +45,29 @@ Se utiliza principalmente para:
 
 
 
-## 3 ¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
+## ¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
 
 
 ### TypeScript mejora la calidad del código en React proporcionando:
 
 
-- ### 1 -Mejorar la seguridad del código
+### 1- Mejorar la seguridad del código
 
- - Detecta errores antes de que se ejecuten en el navegador.
- - Evita pasar props incorrectas en los componentes.
+  Detecta errores antes de que se ejecuten en el navegador.
+  Evita pasar props incorrectas en los componentes.
   
-- ### 2 -Autocompletado y sugerencias en el editor
+### 2- Autocompletado y sugerencias en el editor
 
-- Gracias al tipado, los editores como VSCode pueden sugerir métodos y propiedades automáticamente.
+Gracias al tipado, los editores como VSCode pueden sugerir métodos y propiedades automáticamente.
   
-- ### 3 -Mejor mantenimiento y escalabilidad
+### 3- Mejor mantenimiento y escalabilidad
 
-- Hace que los proyectos sean más fáciles de entender en equipos grandes.
-- Facilita la refactorización del código sin miedo a romper funcionalidades.
+Hace que los proyectos sean más fáciles de entender en equipos grandes.
+Facilita la refactorización del código sin miedo a romper funcionalidades.
   
-- ## 4 -Facilitar la documentación
+- ## 4- Facilitar la documentación
 
-- Los tipos actúan como documentación para otros desarrolladores.
+Los tipos actúan como documentación para otros desarrolladores.
 
   <br>
   <br>
@@ -80,13 +80,13 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
 
 🔹 Beneficios del sistema de tipos:
 
-- ### 1 -Evita errores de tipo
+- ### -Evita errores de tipo
 - Previene operaciones inválidas, como sumar un número con un string.
-- ### 2 -Facilita la lectura del código
+- ### -Facilita la lectura del código
 - Los desarrolladores pueden entender qué tipo de datos esperan las funciones sin revisar la implementación.
-- ### 3 -Mejor integración con IDEs
+- ### -Mejor integración con IDEs
 - Los editores pueden sugerir funciones y propiedades basadas en los tipos definidos.
-- ### 4 -Ayuda a la refactorización
+- ### -Ayuda a la refactorización
 - Si un tipo cambia, TypeScript alerta de los lugares donde hay conflictos.
 
   <br>
@@ -95,7 +95,7 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  <br>
-# 2 -Ejercicio Práctico: Definiendo Tipos e Inferencia
+# 2- Ejercicio Práctico: Definiendo Tipos e Inferencia
 
 - ## Definir Tipos en TypeScript
 
@@ -117,18 +117,18 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
 ![image](https://github.com/user-attachments/assets/11c1683f-0438-48cb-bacb-e0becc48d312)
 
 
-### 1 -Parámetro doctores: Doctor[]
+### -Parámetro doctores: Doctor[]
 - Indica que doctores es un array de objetos de tipo Doctor.
-### 2 -Valor de retorno: string[]
+### -Valor de retorno: string[]
 - Garantiza que la función devuelve un array de strings (los nombres de los doctores).
-### 3 -TypeScript infiere automáticamente los tipos dentro de .map()
+### -TypeScript infiere automáticamente los tipos dentro de .map()
 - Como doctor es de tipo Doctor, doctor.nombre es un string.
   
 <br>
 <br>
 <br>
 
-# 3. Definición de Interfaces y Clases en TypeScript
+# 3- Definición de Interfaces y Clases en TypeScript
 
 
 - Se define una interfaz y una clase que implemente esa interfaz para gestionar información de doctores:
@@ -138,7 +138,7 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
   <br>
 
 
-4. TypeScript y ReactJS: Implementación Básica en un Componente
+# 4- TypeScript y ReactJS: Implementación Básica en un Componente
 
 - Aquí tienes un componente de React en TypeScript que recibe datos de un doctor como props:
 
@@ -148,17 +148,17 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
 <br>
 <br>
 
-# 5. Ventajas de TypeScript en el Desarrollo con ReactJS (1 punto)
+# 5- Ventajas de TypeScript en el Desarrollo con ReactJS (1 punto)
 
 - Las ventajas más importantes de TypeScript en React incluyen:
 
-## 1- Prevención de errores en tiempo de desarrollo
+### -Prevención de errores en tiempo de desarrollo
 Al definir tipos para props y estados, se evitan errores comunes antes de ejecutar la aplicación.
-## 2- Autocompletado y ayuda en el editor
+### -Autocompletado y ayuda en el editor
 Herramientas como VSCode pueden sugerir propiedades y métodos automáticamente.
-## 3- Mejor mantenimiento y escalabilidad
+### -Mejor mantenimiento y escalabilidad
 En proyectos grandes, la claridad del código es fundamental.
-## 4- Compatibilidad con JavaScript
+### -Compatibilidad con JavaScript
 Se puede integrar progresivamente TypeScript sin necesidad de reescribir todo el código.
 
 
