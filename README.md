@@ -1,5 +1,5 @@
 # Módulo 5: Sesión Interactiva de Preguntas y Respuestas:
-Introducción a TypeScript en ReactJS
+## Introducción a TypeScript en ReactJS
 <br>
 <br>
 <br>
@@ -11,14 +11,13 @@ Introducción a TypeScript en ReactJS
 TypeScript es un superset tipado de JavaScript desarrollado por Microsoft. Extiende JavaScript al agregar tipado estático opcional y herramientas avanzadas para el desarrollo. Se compila a JavaScript puro, lo que lo hace compatible con cualquier navegador o entorno donde se ejecute JavaScript.
 
 <br>
-<br>
 
-Se utiliza principalmente para:
+### Se utiliza principalmente para:
 
 - Mejorar la detección temprana de errores en el código.
 - Facilitar el mantenimiento y escalabilidad en proyectos grandes.
 - Proporcionar mejor autocompletado e integración con editores de código como VSCode.
-- Implementar conceptos avanzados como interfaces, genéricos y clases en un entorno seguro.
+- Implementar conceptos avanzados como interfaces, genéricos y clases en un entorno seguro
 
   <br>
   <br>
@@ -64,8 +63,8 @@ Gracias al tipado, los editores como VSCode pueden sugerir métodos y propiedade
 
 Hace que los proyectos sean más fáciles de entender en equipos grandes.
 Facilita la refactorización del código sin miedo a romper funcionalidades.
-  
-- ## 4- Facilitar la documentación
+
+### 4- Facilitar la documentación
 
 Los tipos actúan como documentación para otros desarrolladores.
 
@@ -74,32 +73,31 @@ Los tipos actúan como documentación para otros desarrolladores.
   <br>
   
 
-## 4 ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
+## ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
 
 El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en variables, funciones y objetos. Este sistema ayuda a prevenir errores antes de que el código se ejecute.
+<br>
 
-🔹 Beneficios del sistema de tipos:
+###los beneficios del sistema de tipos pueden:
 
-- ### -Evita errores de tipo
+### -Evita errores de tipo
 - Previene operaciones inválidas, como sumar un número con un string.
-- ### -Facilita la lectura del código
+### -Facilita la lectura del código
 - Los desarrolladores pueden entender qué tipo de datos esperan las funciones sin revisar la implementación.
-- ### -Mejor integración con IDEs
+### -Mejor integración con IDEs
 - Los editores pueden sugerir funciones y propiedades basadas en los tipos definidos.
-- ### -Ayuda a la refactorización
+### -Ayuda a la refactorización
 - Si un tipo cambia, TypeScript alerta de los lugares donde hay conflictos.
 
   <br>
   <br>
   <br>
-  
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- <br>
-# 2- Ejercicio Práctico: Definiendo Tipos e Inferencia
 
-- ## Definir Tipos en TypeScript
+## 2- Ejercicio Práctico: Definiendo Tipos e Inferencia
 
-( Primero, definimos los tipos adecuados para representar la información de un doctor)
+### Definir Tipos en TypeScript
+
+Primero, definimos los tipos adecuados para representar la información de un doctor
 
 ![image](https://github.com/user-attachments/assets/3d35ddff-c06b-454a-93f2-3ab5a9a3b99c)
 
@@ -110,25 +108,25 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
   <br>
   <br>
 
-- ## Creando la Función con Tipado Correcto
+### Creando la Función con Tipado Correcto
 
-- Aquí se implementa la función que recibe un array de doctores y devuelve un array con sus nombres:
+Aquí se implementa la función que recibe un array de doctores y devuelve un array con sus nombres:
 
 ![image](https://github.com/user-attachments/assets/11c1683f-0438-48cb-bacb-e0becc48d312)
 
 
-### -Parámetro doctores: Doctor[]
-- Indica que doctores es un array de objetos de tipo Doctor.
-### -Valor de retorno: string[]
-- Garantiza que la función devuelve un array de strings (los nombres de los doctores).
-### -TypeScript infiere automáticamente los tipos dentro de .map()
-- Como doctor es de tipo Doctor, doctor.nombre es un string.
+- Parámetro doctores: Doctor[]
+Indica que doctores es un array de objetos de tipo Doctor.
+- Valor de retorno: string[]
+Garantiza que la función devuelve un array de strings (los nombres de los doctores).
+- TypeScript infiere automáticamente los tipos dentro de .map()
+Como doctor es de tipo Doctor, doctor.nombre es un string.
   
 <br>
 <br>
 <br>
 
-# 3- Definición de Interfaces y Clases en TypeScript
+## 3- Definición de Interfaces y Clases en TypeScript
 
 
 - Se define una interfaz y una clase que implemente esa interfaz para gestionar información de doctores:
@@ -138,7 +136,7 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
   <br>
 
 
-# 4- TypeScript y ReactJS: Implementación Básica en un Componente
+## 4- TypeScript y ReactJS: Implementación Básica en un Componente
 
 - Aquí tienes un componente de React en TypeScript que recibe datos de un doctor como props:
 
@@ -148,9 +146,9 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
 <br>
 <br>
 
-# 5- Ventajas de TypeScript en el Desarrollo con ReactJS (1 punto)
+## 5- Ventajas de TypeScript en el Desarrollo con ReactJS
 
-- Las ventajas más importantes de TypeScript en React incluyen:
+Las ventajas más importantes de TypeScript en React incluyen:
 
 ### -Prevención de errores en tiempo de desarrollo
 Al definir tipos para props y estados, se evitan errores comunes antes de ejecutar la aplicación.
@@ -160,6 +158,8 @@ Herramientas como VSCode pueden sugerir propiedades y métodos automáticamente.
 En proyectos grandes, la claridad del código es fundamental.
 ### -Compatibilidad con JavaScript
 Se puede integrar progresivamente TypeScript sin necesidad de reescribir todo el código.
+
+
 
 
 
