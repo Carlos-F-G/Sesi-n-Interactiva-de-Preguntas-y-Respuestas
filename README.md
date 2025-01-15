@@ -96,7 +96,8 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
 
 ( Primero, definimos los tipos adecuados para representar la información de un doctor)
 
- ![image](https://github.com/user-attachments/assets/7901fdfb-3899-4317-b343-2cc55fed47c7)
+![image](https://github.com/user-attachments/assets/3d35ddff-c06b-454a-93f2-3ab5a9a3b99c)
+
 
 Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una especialidad con tipos correctos.
 
@@ -108,14 +109,26 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
 
 - Aquí se implementa la función que recibe un array de doctores y devuelve un array con sus nombres:
 
-  ![image](https://github.com/user-attachments/assets/bc089285-3c03-44e7-b2fc-3f6957c6ab1e)
+![image](https://github.com/user-attachments/assets/11c1683f-0438-48cb-bacb-e0becc48d312)
 
-- ## 1 Parámetro doctores: Doctor[]
+
+- ### 1 Parámetro doctores: Doctor[]
 - Indica que doctores es un array de objetos de tipo Doctor.
-- ## 2 Valor de retorno string[]
+- ### 2 Valor de retorno string[]
 - Garantiza que la función devuelve un array de strings (los nombres de los doctores).
-- ## 3 TypeScript infiere automáticamente los tipos dentro de .map()
+- ### 3 TypeScript infiere automáticamente los tipos dentro de .map()
 - Como doctor es de tipo Doctor, doctor.nombre es un string.
+
+
+# 3. Definición de Interfaces y Clases en TypeScript
+
+  <br>
+
+- Se define una interfaz y una clase que implemente esa interfaz para gestionar información de doctores:
+
+  ![image](https://github.com/user-attachments/assets/9a45880c-d615-4a4c-8442-a85b1ee44faf)
+
+
 
 
 
