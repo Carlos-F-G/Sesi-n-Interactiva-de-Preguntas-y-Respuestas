@@ -92,13 +92,30 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
  <br>
 # 2 -Ejercicio Práctico: Definiendo Tipos e Inferencia
 
-- Aquí una función en ReactJS con TypeScript para definir los tipos de un array de doctores:
+- ## Definir Tipos en TypeScript
 
 ( Primero, definimos los tipos adecuados para representar la información de un doctor)
 
  ![image](https://github.com/user-attachments/assets/7901fdfb-3899-4317-b343-2cc55fed47c7)
 
-Aquí, TypeScript nos ayuda asegurando que cada doctor tenga un id, un nombre y una especialidad con tipos correctos.
+Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una especialidad con tipos correctos.
+
+  <br>
+  <br>
+  <br>
+
+- ## Creando la Función con Tipado Correcto
+
+- Aquí se implementa la función que recibe un array de doctores y devuelve un array con sus nombres:
+
+  ![image](https://github.com/user-attachments/assets/bc089285-3c03-44e7-b2fc-3f6957c6ab1e)
+
+- ## 1 Parámetro doctores: Doctor[]
+- Indica que doctores es un array de objetos de tipo Doctor.
+- ## 2 Valor de retorno string[]
+- Garantiza que la función devuelve un array de strings (los nombres de los doctores).
+- ## 3 TypeScript infiere automáticamente los tipos dentro de .map()
+- Como doctor es de tipo Doctor, doctor.nombre es un string.
 
 
 
