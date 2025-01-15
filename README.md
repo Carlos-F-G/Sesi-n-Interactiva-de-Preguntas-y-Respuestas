@@ -112,24 +112,49 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
 ![image](https://github.com/user-attachments/assets/11c1683f-0438-48cb-bacb-e0becc48d312)
 
 
-### 1 -Parámetro doctores:### Doctor[]
+### 1 -Parámetro doctores: Doctor[]
 - Indica que doctores es un array de objetos de tipo Doctor.
-### 2 -Valor de retorno ### string[]
+### 2 -Valor de retorno: string[]
 - Garantiza que la función devuelve un array de strings (los nombres de los doctores).
-### 3 -TypeScript infiere automáticamente los tipos dentro de ### .map()
+### 3 -TypeScript infiere automáticamente los tipos dentro de .map()
 - Como doctor es de tipo Doctor, doctor.nombre es un string.
+  
 <br>
-  <br>
-  <br>
+<br>
+<br>
 
 # 3. Definición de Interfaces y Clases en TypeScript
 
-  <br>
 
 - Se define una interfaz y una clase que implemente esa interfaz para gestionar información de doctores:
 
   ![image](https://github.com/user-attachments/assets/9a45880c-d615-4a4c-8442-a85b1ee44faf)
 
+  <br>
+
+
+4. TypeScript y ReactJS: Implementación Básica en un Componente
+
+- Aquí tienes un componente de React en TypeScript que recibe datos de un doctor como props:
+
+![image](https://github.com/user-attachments/assets/a2578c0a-4402-4168-adb5-e160dd7a87b6)
+
+<br>
+<br>
+<br>
+
+# 5. Ventajas de TypeScript en el Desarrollo con ReactJS (1 punto)
+
+- Las ventajas más importantes de TypeScript en React incluyen:
+
+## 1- Prevención de errores en tiempo de desarrollo
+Al definir tipos para props y estados, se evitan errores comunes antes de ejecutar la aplicación.
+## 2- Autocompletado y ayuda en el editor
+Herramientas como VSCode pueden sugerir propiedades y métodos automáticamente.
+## 3- Mejor mantenimiento y escalabilidad
+En proyectos grandes, la claridad del código es fundamental.
+## 4- Compatibilidad con JavaScript
+Se puede integrar progresivamente TypeScript sin necesidad de reescribir todo el código.
 
 
 
