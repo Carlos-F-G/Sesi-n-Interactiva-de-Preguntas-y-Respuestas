@@ -112,13 +112,15 @@ Aquí, TypeScript nos asegura que cada doctor tenga un id, un nombre y una espec
 ![image](https://github.com/user-attachments/assets/11c1683f-0438-48cb-bacb-e0becc48d312)
 
 
-- ### 1 Parámetro doctores: Doctor[]
+### 1 -Parámetro doctores:### Doctor[]
 - Indica que doctores es un array de objetos de tipo Doctor.
-- ### 2 Valor de retorno string[]
+### 2 -Valor de retorno ### string[]
 - Garantiza que la función devuelve un array de strings (los nombres de los doctores).
-- ### 3 TypeScript infiere automáticamente los tipos dentro de .map()
+### 3 -TypeScript infiere automáticamente los tipos dentro de ### .map()
 - Como doctor es de tipo Doctor, doctor.nombre es un string.
-
+<br>
+  <br>
+  <br>
 
 # 3. Definición de Interfaces y Clases en TypeScript
 
