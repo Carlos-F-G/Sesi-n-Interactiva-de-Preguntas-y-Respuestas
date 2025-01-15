@@ -97,7 +97,7 @@ El sistema de tipos de TypeScript define los tipos de datos que pueden usarse en
 
 ### Definir Tipos en TypeScript
 
-Primero, definimos los tipos adecuados para representar la información de un doctor
+Primero, se define los tipos adecuados para representar la información de un doctor
 
 ![image](https://github.com/user-attachments/assets/3d35ddff-c06b-454a-93f2-3ab5a9a3b99c)
 
@@ -138,7 +138,7 @@ Como doctor es de tipo Doctor, doctor.nombre es un string.
 
 ## 4- TypeScript y ReactJS: Implementación Básica en un Componente
 
-- Aquí tienes un componente de React en TypeScript que recibe datos de un doctor como props:
+- Componente de React en TypeScript que recibe datos de un doctor como props:
 
 ![image](https://github.com/user-attachments/assets/a2578c0a-4402-4168-adb5-e160dd7a87b6)
 
